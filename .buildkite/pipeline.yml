@@ -16,8 +16,6 @@ steps:
           scan-type: iac
           iac-type: Terraform
           api-secret-env: WIZ_SECRET
-          path: './main.tf'
-          parameter-files: './variables.tf'
           
 
       
