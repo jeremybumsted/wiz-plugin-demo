@@ -12,7 +12,7 @@ steps:
   - label: ":terraform: terraform scan"
     command: echo "Scanning Terraform"
     plugins:
-      - wiz#v1.3.1:
+      - /Users/jeremy/dev/plugins/wiz-buildkite-plugin#iac-scan-fix:
           scan-type: iac
           iac-type: terraform
           api-secret-env: WIZ_SECRET
